@@ -1,0 +1,83 @@
+.InputBox {
+    width: 55vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #501B6B;
+    border-radius: 15px;
+}
+
+.InputBox .top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 18vh;
+    padding: 3vh 0;
+}
+
+.InputBox .top .left {
+    width: 8%;
+    height: 100%;
+}
+
+.InputBox .top .right {
+    width: 80%;
+    height: 100%;
+}
+
+.InputBox .top .right textarea {
+    width: 100%;
+    height: 100%;
+    background-color: #501B6B;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.InputBox .top .right textarea::placeholder {
+    font-size: 1.5rem;
+    padding-top: 1.25vh;
+    color: white;
+    opacity: 70%;
+}
+
+.InputBox .top .right textarea:focus,
+textarea:active {
+    outline: none;
+}
+
+.InputBox .top .left img {
+    width: 100%;
+    height: 45%;
+    border-radius: 100%;
+}
+
+.InputBox hr {
+    width: 100%;
+    height: 0.5vh;
+    background: linear-gradient(90deg, rgba(26, 101, 184, 0.60) 0%, rgba(153, 60, 223, 0.60) 36.46%, rgba(153, 60, 223, 0.60) 61.98%, rgba(26, 101, 184, 0.60) 100%);
+    border: none;
+    margin-bottom: 0;
+}
+
+.InputBox .bottom {
+    width: 100%;
+    text-align: right;
+}
+
+.InputBox button{
+    width: 20%;
+    height: 6vh;
+    background: linear-gradient(90deg, #1A65B8 0%, #993CDF 52.34%, #1A65B8 100%);
+    color: white;
+    border: none;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    margin-right: 2vw;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
