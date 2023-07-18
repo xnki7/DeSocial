@@ -1,0 +1,5 @@
+.App {
+    min-height: 97vh;
+    background: linear-gradient(270deg, #120718 0%, #230B2F 44.79%, #230B2F 58.33%, #120718 100%);
+    padding-top: 3vh;
+}
