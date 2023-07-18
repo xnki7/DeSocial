@@ -5,3 +5,22 @@
     display: flex;
     overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    /* border: 0.5px solid #181717; */
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 0.5px solid transparent;
+    background-clip: content-box;
+    background-color: #000000;
+}

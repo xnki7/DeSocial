@@ -1,0 +1,28 @@
+.SuggestionBox{
+    margin-left: 80.25vw;
+    width: 18vw;
+    height: 94vh;
+    border-radius: 15px;
+    background-color: #501B6B;
+    position: fixed;
+}
+
+.SuggestionBox p{
+    margin: 0;
+}
+
+.SuggestionBox .header{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(153, 60, 223, 0.60) 13.06%, rgba(26, 101, 184, 0.60) 49.08%, rgba(153, 60, 223, 0.60) 87.06%);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.SuggestionBox .header p.suggestions{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
