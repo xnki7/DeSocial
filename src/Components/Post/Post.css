@@ -1,0 +1,93 @@
+.Post {
+    width: 55vw;
+    background-color: #501B6B;
+    margin-left: 2vw;
+    color: white;
+    border-radius: 15px;
+    height: max-content;
+}
+
+.Post p {
+    margin: 0;
+}
+
+.Post .header {
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(90deg, rgba(26, 101, 184, 0.60) 0%, rgba(153, 60, 223, 0.60) 36.63%, rgba(153, 60, 223, 0.60) 62.37%, rgba(26, 101, 184, 0.60) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 11vh;
+}
+
+.Post .header .leftContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.Post .header .leftContent img {
+    width: 15%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.Post .header .profileText {
+    margin-left: 1vw;
+    height: 100%;
+    width: 55%;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Post .header .profileText .bottomText {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.Post .header .profileText p.userName{
+    font-size: 1.2rem;
+}
+
+.Post .header .profileText p.address, p.bar, p.time{
+    font-size: 0.9rem;
+    opacity: 80%;
+    margin-right: 0.5vw;
+}
+
+.Post .header .rightContent{
+    margin-right: 2vw;
+}
+
+.Post .mainContent{
+    width: 100%;
+}
+
+.Post .mainContent .textContent{
+    padding: 1.5rem 1rem;
+}
+
+.Post .mainContent .textContent p.content{
+    line-height: 1.5rem;
+    word-spacing: 2px;
+}
+
+.Post .mainContent .image{
+    width: 100%;
+    text-align: center;
+}
+
+.Post .mainContent .image img{
+    max-width: 95%;
+    max-height: 40vh;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
