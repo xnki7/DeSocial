@@ -6,8 +6,9 @@ import Post from '../../Components/Post/Post'
 function Homepage() {
     return (
         <div className='Homepage'>
-            <InputBox/>
-            <Post/>
+            <InputBox />
+            <Post />
+            <Post />
         </div>
     )
 }
