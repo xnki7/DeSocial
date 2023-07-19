@@ -16,10 +16,14 @@ contract DeSocial{
     Counters.Counter private postID; // counter for posts
     mapping (uint256 => Counters.Counter) public likes; //postId to post likes
 
-    mapping (address => string[]) public  usersPosts; //address to users posts
-    mapping (address => string[]) public  usersBookmarks; //address to bookmarks
+    mapping (address => string[])  usersPosts; //address to users posts
+    mapping (address => string[])  usersBookmarks; //address to bookmarks
 
 
+    function getRegister (string memory _profileCID) public {
+        userProfiles[msg.sender] = _profileCID;
+    }
+    
     function post (string memory _postCID) public {
         posts.push(_postCID);
         usersPosts[msg.sender].push(_postCID);
