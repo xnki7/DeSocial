@@ -38,6 +38,41 @@ contract DeSocial{
     function like (uint256 _postID) public {
         likes[_postID].increment();
     }
-    // retweet and all get functions
+    
+    function retweet(uint256 _postID) public{
+        post(posts[_postID]);
+    }
+
+    function getCurrentCounter() public view returns(uint256){
+        return (postID.current());
+    }
+
+    function getAllPosts() public view returns (string[] memory){
+        return (posts);
+    }
+
+    function getBookMarks() public view returns (string[] memory){
+        return (usersBookmarks[msg.sender]);
+    }
+
+    function getFollowings(address _acc) public view returns (address[] memory){
+        return (usersFollwings[_acc]);
+    }
+
+    function getFollowers(address _acc) public view returns (address[] memory){
+        return (usersFollowers[_acc]);
+    }
+
+    function getProfile(address _acc) public view returns (string memory){
+        return (userProfiles[_acc]);
+    }
+
+    function getUserPosts(address _acc) public view returns (string[] memory){
+        return (usersPosts[_acc]);
+    }
+
+    function getLikes(uint256 _postID) public view returns (uint256){
+        return (likes[_postID].current());
+    }
     
 }
