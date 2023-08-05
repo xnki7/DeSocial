@@ -3,10 +3,10 @@ import "./Homepage.css"
 import InputBox from '../../Components/InputBox/InputBox'
 import Post from '../../Components/Post/Post'
 
-function Homepage() {
+function Homepage({ contract }) {
     return (
         <div className='Homepage'>
-            <InputBox />
+            <InputBox contract={contract} />
             <Post />
             <Post />
         </div>
