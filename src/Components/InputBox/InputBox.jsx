@@ -70,6 +70,7 @@ function InputBox({ contract }) {
         <div className='InputBox'>
             <div className="top">
                 <div className="left">
+                    {/* img */}
                     <img src={require('../Post/ape.png')} alt="Preview" />
                 </div>
                 <div className="right">
