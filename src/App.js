@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { contractAddress, contractABI } from "./constants";
 import Navbar from "./Components/Navbar/Navbar"
 import Homepage from './Pages/Homepage/Homepage';
+import Profile from './Pages/Profile/Profile';
 import SuggestionBox from './Components/SuggestionBox/SuggestionBox';
 import Bookmarks from './Pages/Bookmarks/Bookmarks';
 import CreateProfile from './Pages/CreateProfile/CreateProfile';
@@ -62,7 +63,8 @@ function App() {
   return (
     <div className="App">
       <Navbar setAccount={setAccount} setConnected={setConnected} />
-      <Homepage contract={contract} />
+      {/* <Homepage contract={contract} /> */}
+      <Profile/>
       <SuggestionBox />
       {/* <CreateProfile contract={contract} /> */}
     </div>

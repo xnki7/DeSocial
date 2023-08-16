@@ -18,9 +18,10 @@ function ProfileBox(){
             </div>
             <p className="bio">
                         Manipal University Jaipur 2025..React developer | web3 developer | UI/UX | Blockchain enthusiast | Wizard @ Lumos Lab
-                    </p>
+            </p>
             <div className="bottom">
-                <p>following</p>
+                <p>Following</p>
+                <p>Followers</p>
             </div>
         </div>
         </div>
