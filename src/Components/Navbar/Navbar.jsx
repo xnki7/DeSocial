@@ -34,6 +34,7 @@ function Navbar({ setConnected, setAccount }) {
         <p className="navBtn">Profile</p>
       </div>
       <div className="bottom">
+        <div className="gradiernOuter">
         {/* <button>Connect Wallet</button> */}
         <WagmiConfig config={wagmiConfig}>
           <RainbowKitProvider chains={chains} modalSize="compact">
@@ -100,6 +101,7 @@ function Navbar({ setConnected, setAccount }) {
             </ConnectButton.Custom>
           </RainbowKitProvider>
         </WagmiConfig>
+        </div>
       </div>
     </div>
   )
