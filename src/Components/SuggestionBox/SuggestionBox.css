@@ -1,7 +1,7 @@
 .SuggestionBox{
     margin-left: 79.25%;
     width: 19%;
-    height: 94vh;
+    height: 60vh;
     border-radius: 15px;
     background-color: #501B6B;
     position: fixed;
@@ -22,7 +22,7 @@
 }
 
 .SuggestionBox .header p.suggestions{
-    font-size: 1.2rem;
-    color: white;
-    font-weight: 600;
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
 }

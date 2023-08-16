@@ -26,9 +26,9 @@
 .Navbar p.navBtn {
     width: 100%;
     text-align: center;
-    margin-top: 4vh;
-    color: white;
-    font-size: 1.2rem;
+    margin-top: 2.5vh;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2.8vh;
     cursor: pointer;
 }
 

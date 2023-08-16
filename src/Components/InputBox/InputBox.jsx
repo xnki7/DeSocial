@@ -84,9 +84,11 @@ function InputBox({ contract }) {
             <hr />
             <div className="bottom">
                 <input type="file" multiple accept="image/*" onChange={handleImageChange} />
-                <button onClick={handlePost} disabled={uploading}>
+                <div className="outerGradient">
+                    <button onClick={handlePost} disabled={uploading}>
                     {uploading ? 'Uploading...' : 'Post'}
                 </button>
+                </div>
             </div>
         </div>
     );

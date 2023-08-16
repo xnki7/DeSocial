@@ -54,12 +54,13 @@
 }
 
 .Post .header .profileText p.userName{
-    font-size: 1.2rem;
+    font-size: 2.9vh;
+    opacity: 0.9;
 }
 
 .Post .header .profileText p.address, p.bar, p.time{
-    font-size: 0.9rem;
-    opacity: 80%;
+    font-size: 1.8vh;
+    opacity: 0.75;
     margin-right: 0.5vw;
 }
 
@@ -76,7 +77,8 @@
 }
 
 .Post .mainContent .textContent p.content{
-    line-height: 1.5rem;
+    font-size: 2.5vh;
+    line-height: 3.38vh;
     word-spacing: 2px;
 }
 
@@ -88,6 +90,6 @@
 .Post .mainContent .image img{
     max-width: 95%;
     max-height: 40vh;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    margin: 1vh 0vh 4vh 0vh;
+    border-radius: 15px;
 }
