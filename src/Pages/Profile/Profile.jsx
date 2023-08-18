@@ -6,6 +6,7 @@ import ProfileBox from "../../Components/ProfileBox/ProfileBox"
 function Profile() {
     return (
         <div className='Profile'>
+            <p className="heading">Profile</p>
             <ProfileBox />
             <Post />
             <Post />

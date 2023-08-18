@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Homepage from './Pages/Homepage/Homepage';
 import Profile from './Pages/Profile/Profile';
 import SuggestionBox from './Components/SuggestionBox/SuggestionBox';
+import Following from './Pages/Following/Following';
 import Bookmarks from './Pages/Bookmarks/Bookmarks';
 import CreateProfile from './Pages/CreateProfile/CreateProfile';
 import { publicProvider } from "wagmi/providers/public";
@@ -63,8 +64,9 @@ function App() {
   return (
     <div className="App">
       <Navbar setAccount={setAccount} setConnected={setConnected} />
-      <Homepage contract={contract} />
+      {/* <Homepage contract={contract} /> */}
       {/* <Profile/> */}
+      <Following/>
       <SuggestionBox />
       {/* <CreateProfile contract={contract} /> */}
     </div>

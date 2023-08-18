@@ -1,0 +1,51 @@
+.EngagementBar{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    height: fit-content;
+    justify-content: space-between;
+    margin-top: 2vh;
+    align-items: center;
+    padding: 0vh .5vh 1vh .5vh;
+}
+
+.EngagementBar .left{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.EngagementBar .left .profilePic{
+    height: 7.5vh;
+    width: 7.5vh;
+    border-radius: 90px;
+}
+
+.EngagementBar .left .profileData{
+    margin-left: 1.5vh;
+}
+
+.EngagementBar .left .profileData .username{
+    font-size: 2.5vh;
+    font-weight: 350;
+    opacity: 0.8;
+}
+
+.EngagementBar .left .profileData .address{
+    font-size: 1.8vh;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+hr{
+    opacity: 70%;
+    margin: 0vh .5vh 0vh .5vh;
+}
+
+.EngagementBar .right{
+    font-size: 2.5vh;
+    font-weight: 350;
+    opacity: 0.8;
+    cursor: pointer;
+}
