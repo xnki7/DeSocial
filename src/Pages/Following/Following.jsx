@@ -10,6 +10,8 @@ function Following() {
         <p className="header">Following</p>
         <EngagementBar />
         <EngagementBar />
+        <EngagementBar />
+        <EngagementBar />
     </div>
     )
 }

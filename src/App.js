@@ -64,9 +64,9 @@ function App() {
   return (
     <div className="App">
       <Navbar setAccount={setAccount} setConnected={setConnected} />
-      {/* <Homepage contract={contract} /> */}
+      <Homepage contract={contract} />
       {/* <Profile/> */}
-      <Following/>
+      {/* <Following/> */}
       <SuggestionBox />
       {/* <CreateProfile contract={contract} /> */}
     </div>
