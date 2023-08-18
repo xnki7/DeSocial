@@ -81,7 +81,7 @@
 .ProfileBoxTop .bottom{
     display: flex;
     flex-direction: row;
-    padding: 1.5vh 1.5vh 1.5vh 14vh;
+    padding: 1.5vh 4vh 1.5vh 14vh;
     justify-content: space-between;
     align-items: center;
 }
