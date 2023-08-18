@@ -82,13 +82,39 @@
     display: flex;
     flex-direction: row;
     padding: 1.5vh 1.5vh 1.5vh 14vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.ProfileBoxTop .bottom p{
+.ProfileBoxTop .bottom .bottomLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.ProfileBoxTop .bottom .bottomLeft p{
     margin-right: 4vh;
     font-size: 2.3vh;
     font-weight: 200;
     cursor: pointer;
+}
+
+.ProfileBoxTop .bottom .followBtnOuter{
+    justify-content: center;
+    background: linear-gradient(90deg,rgba(153, 60, 223, 1),
+        rgba(26, 101, 184, 1),
+        rgba(153, 60, 223, 1));
+    border-radius: 90px;
+    padding: 3px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.ProfileBoxTop .bottom .followBtnOuter .followBtnInner{
+    background: linear-gradient(90deg, #1A65B8 0%, #993CDF 52.34%, #1A65B8 100%);
+    width:max-content;
+    color: rgba(255, 255, 255, 0.80);
+    padding: .5vh 4.5vh .5vh 4.5vh;
+    border-radius: 90px;
 }
 
 

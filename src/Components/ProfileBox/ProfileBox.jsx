@@ -20,8 +20,13 @@ function ProfileBox(){
                         Manipal University Jaipur 2025..React developer | web3 developer | UI/UX | Blockchain enthusiast | Wizard @ Lumos Lab
             </p>
             <div className="bottom">
-                <p>Following</p>
-                <p>Followers</p>
+                <div className="bottomLeft">
+                    <p>Following: 30</p>
+                    <p>Followers: 30</p>
+                </div>
+                <div className="followBtnOuter">
+                    <p className="followBtnInner">Follow</p>
+                </div>
             </div>
         </div>
         </div>

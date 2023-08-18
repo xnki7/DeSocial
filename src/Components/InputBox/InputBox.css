@@ -80,7 +80,7 @@ textarea:active {
         rgba(26, 101, 184, 1),
         rgba(153, 60, 223, 1));
     border-radius: 90px;
-    padding: .5vh;
+    padding: 3px;
     margin: 1.8vh 2vh 1.8vh 0vh;
 }
 
