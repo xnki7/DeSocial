@@ -6,8 +6,9 @@ import ProfileBox from "../../Components/ProfileBox/ProfileBox"
 function Profile() {
     return (
         <div className='Profile'>
-            <p className="heading">Profile</p>
+            <p className="headingProfile">Profile</p>
             <ProfileBox />
+            <p className="headingPosts">Activities</p>
             <Post />
             <Post />
         </div>
